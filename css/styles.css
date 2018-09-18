@@ -1,0 +1,50 @@
+* {
+    font-family: sans-serif;
+}
+
+/* #b22222, #ddd, and #fff. */
+
+caption {
+    color: #b22222;
+    text-align: left;
+    font-size: 32px;
+}
+
+table{
+    margin: 100px auto;
+    border-collapse: collapse;
+    width: 80%;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+thead {
+    background: #b22222;
+    color: #fff;
+}
+
+th, td {
+    padding: 20px;
+    text-align: right;
+}
+
+th {
+    font-weight: lighter;
+}
+
+th:first-child, td:first-child {
+    padding: 20px;
+    text-align: left;
+}
+
+td {
+    background: white;
+    border-bottom: 1px #ccc solid;
+    font-weight: bold;
+}
+
+td:first-child {
+    font-weight: normal;
+    background: #ddd;
+    border: 1px #ccc solid;
+}
+
